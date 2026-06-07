@@ -1,0 +1,9 @@
+cd "caminho\do\Index_device"
+@"
+# Binários compilados
+*.bin
+
+# Cache Arduino
+build/
+.pio/
+"@ | Out-File -Encoding utf8 .gitignore
